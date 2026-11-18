@@ -5,5 +5,18 @@ public class binaryExponentiation {
         //     System.out.println(n%2);
         //     n = n/2;
         // }
+
+        int x =3;
+        int n =4;
+        int ans =1;
+        while(n!=0){
+            if(n%2==1){
+                ans = ans*x;
+            }
+            x = x*x;
+            n = n/2;
+        }
+
+        System.out.println(ans);
     }
 }
