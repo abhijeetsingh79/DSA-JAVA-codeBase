@@ -17,6 +17,6 @@ public class binaryExponentiation {
             n = n/2;
         }
 
-        System.out.println(ans);
+        System.out.println(ans);  // for negative power at end return 1/ans;
     }
 }
